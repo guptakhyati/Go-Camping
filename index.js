@@ -17,7 +17,7 @@ var commentRoutes=require("./routes/comments");
 var indexRoutes=require("./routes/index");
 
 
-mongoose.connect("mongodb+srv://Khyati:Apar@9871@cluster0.ez1ba.mongodb.net/yelpcamp?retryWrites=true&w=majority",{
+mongoose.connect("",{
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
